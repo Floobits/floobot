@@ -1,0 +1,24 @@
+{
+  "name": "floobot",
+  "bin": "./bin/floobot",
+  "repository": "https://github.com/Floobits/floobot/",
+  "contributors": [
+    "Geoff Greer <geoff@greer.fm>",
+    "Matt Kaniaris <mkaniaris@gmail.com>",
+    "Bjorn Tipling"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.x",
+    "floorine": "0.x",
+    "irc": "0.3.x",
+    "lodash": "2.2.x",
+    "mkdirp": "0.3.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "./bin/floobot"
+  }
+}

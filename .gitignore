@@ -1,0 +1,5 @@
+*.pyc
+.DS_Store
+.sublime-project
+node_modules
+npm-debug.log
