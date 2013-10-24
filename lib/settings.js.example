@@ -13,3 +13,5 @@ exports.irc = {
 
 exports.http_port = 9000;
 //exports.https_port = 9443;
+
+exports.log_level = "debug";
