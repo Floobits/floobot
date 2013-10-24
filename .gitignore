@@ -1,5 +1,6 @@
 *.pyc
 .DS_Store
 .sublime-project
+lib/settings.js
 node_modules
 npm-debug.log

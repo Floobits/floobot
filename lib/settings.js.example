@@ -1,0 +1,15 @@
+exports.irc = {
+  server: "irc.freenode.net",
+  nick: "floobot",
+  options: {
+    autoConnect: false,
+    port: 7000,
+    secure: true,
+    userName: "floobot",
+    realName: "Floobits bot",
+    channels: ["#floobits"]
+  }
+};
+
+exports.http_port = 9000;
+//exports.https_port = 9443;
