@@ -21,6 +21,9 @@ RELEASE_DIR="/data/releases/$RELEASE_NAME"
 
 echo "Deploying $RELEASE_NAME to $HOST"
 
+# Floobot would still be starting up if we did this afterwards. This is the only case in which we do this.
+curl -X POST http://$USER:$USER@dev00.floobits.com/deploy/floobot/$HOST
+
 scp -C $RELEASE_NAME.tar.gz $HOST:/tmp
 
 ssh $HOST "sudo mkdir /data/releases/$RELEASE_NAME && sudo tar xzf /tmp/$RELEASE_NAME.tar.gz --directory /data/releases/$RELEASE_NAME"
