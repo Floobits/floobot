@@ -12,8 +12,9 @@
     "express": "3.x",
     "floorine": "0.x",
     "irc": "0.3.x",
-    "lodash": "2.2.x",
-    "mkdirp": "0.3.x"
+    "lodash": "2.x",
+    "mkdirp": "0.3.x",
+    "request": "2.x"
   },
   "engines": {
     "node": ">=0.10.0"
