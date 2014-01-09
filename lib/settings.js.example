@@ -6,8 +6,13 @@ exports.irc = {
     port: 7000,
     secure: true,
     userName: "floobot",
-    realName: "Floobits bot",
-    channels: ["#floobits"]
+    realName: "Floobits bot"
+  }
+};
+
+exports.channels = {
+  "#floobits": {
+    "announcements": ["deploys", "urls"]
   }
 };
 
