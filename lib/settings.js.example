@@ -21,6 +21,10 @@ exports.http_port = 9000;
 
 exports.log_level = "debug";
 
+exports.ignored_users = [
+  "floobot-gh"
+];
+
 exports.users = {
   test: "test"
 };
