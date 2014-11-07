@@ -8,6 +8,9 @@
     "Bjorn Tipling"
   ],
   "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "2.4.x"
+  },
   "dependencies": {
     "cheerio": "0.x",
     "express": "3.x",
