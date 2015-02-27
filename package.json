@@ -16,7 +16,7 @@
     "express": "3.x",
     "floorine": "0.x",
     "irc": "0.3.x",
-    "lodash": "2.x",
+    "lodash": "3.x",
     "mkdirp": "0.5.x",
     "request": "2.x"
   },
