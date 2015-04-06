@@ -7,18 +7,17 @@
     "Matt Kaniaris <mkaniaris@gmail.com>",
     "Bjorn Tipling"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "jshint": "2.4.x"
   },
   "dependencies": {
-    "cheerio": "0.x",
     "express": "3.x",
+    "fleece": "0.x",
     "floorine": "0.x",
     "irc": "0.3.x",
     "lodash": "3.x",
-    "mkdirp": "0.5.x",
-    "request": "2.x"
+    "mkdirp": "0.5.x"
   },
   "engines": {
     "node": ">=0.10.0"
