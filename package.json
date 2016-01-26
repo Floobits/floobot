@@ -12,8 +12,8 @@
     "express": "3.x",
     "fleece": "0.x",
     "floorine": "0.x",
-    "irc": "0.3.x",
-    "lodash": "3.x",
+    "irc": "0.4.x",
+    "lodash": "4.x",
     "mkdirp": "0.5.x"
   },
   "devDependencies": {
