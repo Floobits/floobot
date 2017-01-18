@@ -12,12 +12,12 @@
     "express": "3.x",
     "fleece": "0.x",
     "floorine": "0.x",
-    "irc": "0.4.x",
+    "irc": "0.5.x",
     "lodash": "4.x",
     "mkdirp": "0.5.x"
   },
   "devDependencies": {
-    "eslint": "2.x",
+    "eslint": "3.x",
     "eslint-config-floobits": "*"
   },
   "engines": {
