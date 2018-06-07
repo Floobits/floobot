@@ -30,8 +30,8 @@ ssh $HOST "sudo mkdir /data/releases/$RELEASE_NAME && sudo tar xzf /tmp/$RELEASE
 ssh $HOST "sudo cp /data/floobot/lib/settings.js /data/releases/$RELEASE_NAME/lib/settings.js"
 ssh $HOST "sudo cp -r /data/floobot/node_modules /data/releases/$RELEASE_NAME/"
 ssh $HOST "cd /data/releases/$RELEASE_NAME && \
-sudo npm install && \
-sudo npm update && \
+sudo npm install --unsafe-perm && \
+sudo npm update --unsafe-perm && \
 sudo ln -s -f /data/releases/$RELEASE_NAME /data/floobot-new && \
 sudo mv -T -f /data/floobot-new /data/floobot && \
 sudo sv restart /service/floobot/"
